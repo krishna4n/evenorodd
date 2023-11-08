@@ -6,7 +6,7 @@ class evenObb extends Component {
 
   onIncrement = () => {
     const {count} = this.state
-    const randomNumber = Math.floor(Math.random() * 101)
+    const randomNumber = Math.ceil(Math.random())
 
     this.setState({
       count: randomNumber,
